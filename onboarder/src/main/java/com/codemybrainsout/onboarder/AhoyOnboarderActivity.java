@@ -32,7 +32,7 @@ public abstract class AhoyOnboarderActivity extends AppCompatActivity implements
 
     private CircleIndicatorView circleIndicatorView;
     private ViewPager vpOnboarderPager;
-    private AhoyOnboarderAdapter ahoyOnboarderAdapter;
+    public AhoyOnboarderAdapter ahoyOnboarderAdapter;
     private TextView btnSkip;
     private ImageView ivNext, ivPrev;
     private FrameLayout navigationControls;
