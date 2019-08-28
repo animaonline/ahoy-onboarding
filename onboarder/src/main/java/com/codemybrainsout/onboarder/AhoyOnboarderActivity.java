@@ -38,7 +38,7 @@ public abstract class AhoyOnboarderActivity extends AppCompatActivity implements
     private FrameLayout navigationControls;
     private FrameLayout buttonsLayout;
     private RelativeLayout parentLayout;
-    private ImageView backgroundImage;
+    public ImageView backgroundImage;
     private View backgroundImageOverlay;
 
     private ShadowTransformer mCardShadowTransformer;
